@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.5" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCore.Application\TeduCore.Application.csproj" />
+    <ProjectReference Include="..\TeduCore.Data.EF\TeduCore.Data.EF.csproj" />
+    <ProjectReference Include="..\TeduCore.Data\TeduCore.Data.csproj" />
+    <ProjectReference Include="..\TeduCore.Infrastructure\TeduCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeduCore.Utilities\TeduCore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
